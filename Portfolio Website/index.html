@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mayur Bhojane Portfolio</title>
+    <script src="https://kit.fontawesome.com/764aa81b8d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--------------Header----------------->
+    <div id="header-section">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li>
+                        <a href="#header-section">Home</a>
+                    </li>
+                    <li><a href="#about-section">About</a>
+                    </li>
+                    <li>
+                        <a href="#project-section">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#service-section">Services</a>
+                    </li>
+                    <li>
+                        <a href="#contact-section">Contact</a>
+                    </li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Software Engineer</p>
+                <h1>Hi , I am <br><span> Mayur Bhojane </span> </h1>
+            </div>
+        </div>
+    </div>
+
+    <!--------------about-section----------------->
+    <div id="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>A fresher who wishes to equip myself with additional skills and hone my leadership
+                        skills by working with team that enables me to develop and work hard.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Programming Languages</span><br>C, C++, Java, Python
+                            </li>
+                            <li>
+                                <span>Web Development</span><br>HTML, CSS, JavaScript, ReactJS
+                            </li>
+                            <li>
+                                <span>Database</span><br>SQL
+                            </li>
+                            <li>
+                                <span>Software Tool</span><br>VS code, Git
+                            </li>
+                            <li>
+                                <span>Graphic Design Tools</span><br>Adobe XD, Figma
+                            </li>
+                            <li>
+                                <span>UI/UX Conversion</span><br>
+                            </li>
+                            <li>
+                                <span>Problem Solving</span><br>
+                            </li>
+                            <li>
+                                <span>Teamwork</span><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>2017</span><br>SSC
+                                <li style="font-size: 14px;">Shri. Chhatrapati Shivaji Vidyalaya Bhor</li>
+                            </li>
+                            <li>
+                                <span>2020</span><br>Diploma in Computer Engineering
+                                <li style="font-size: 14px;">Government Polytechnic Pune</li>
+                            </li>
+                            <li>
+                                <span>2023</span><br>Bachelors of Computer Engineering
+                                <li style="font-size: 14px;">Universal College of Engineering and Research Sasewadi</li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------Projects----------------->
+    <div id="project-section">
+        <div class="container">
+            <h1 class="subtitle">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/smart_lecture_app.png">
+                    <div class="layer">
+                        <h3>Smart Lectuer App</h3>
+                        <p>Smart Lecture App is a mobile app in which a create a PDF of what the teacher will teach and
+                            sent to the students.</p>
+                        <a href="https://github.com/mayurbhojane37/Smart-Lecture-App">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/digi-prescription.png">
+                    <div class="layer">
+                        <h3>Digi Prescription</h3>
+                        <p>Digi Prescription is a web application used by doctors and patients. The doctor uses his
+                            voice to digitally create the prescription and send it to the patient.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/weather-app.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>A weather web app delivers real-time and forecasted weather information, enabling users to
+                            plan their activities based on current conditions.</p>
+                        <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/mayurbhojane37" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!--------------service-section----------------->
+    <div id="service-section">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the art and science of creating visually appealing and user-friendly websites. It involves using graphic design, layout, color theory, and typography to craft an engaging user experience. Web designers must consider usability, accessibility, and responsiveness, ensuring websites look and function well across various devices and browsers.</p>
+                    <a href="https://www.simplilearn.com/what-is-web-designing-article#:~:text=Web%20designing%20is%20the%20process,make%20them%20easy%20to%20navigate.">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Web development is the process of creating websites and web applications. It involves front-end development for user interfaces using HTML, CSS, and JavaScript, as well as back-end development for server-side functionality.</p>
+                    <a href="https://www.geeksforgeeks.org/web-development/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Development</h2>
+                    <p>App development is the process of creating software applications for mobile devices, desktops, or the web. It encompasses design, coding, testing, and deployment. Developers use programming languages like Java, Swift, or JavaScript, and frameworks such as React Native or Flutter, to build apps that serve various purposes, from games to productivity tools. Successful app development requires user-centric design and ongoing updates to meet evolving user needs and technical requirements.</p>
+                    <a href="https://developer.android.com/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------contact-section----------------->
+    <div id="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> mayurbhojane92@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 9011773701</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/Mayur Bhojane CV.pdf" download class="btn btn2 ">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Message" rows="6" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <!--------------Copyright----------------->
+        <div class="copyright">
+            <p>Copyright &copy; 2023 Mayur Bhojane. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwqwXBjiQ8d6FWamNAK0e9nuwSlwzOXjuYROQWZr32hJJH6Vi4rN5P76c7W-2fM8RVGBA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully !"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
