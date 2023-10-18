@@ -1,1 +1,1 @@
-# Personal-Projects
+In my recent web development projects, I built a dynamic e-commerce platform using modern technologies like HTML, CSS, JavaScript. The site offers a seamless user experience, complete with a robust product catalog, and responsive design. My project showcases my skills in web development.
